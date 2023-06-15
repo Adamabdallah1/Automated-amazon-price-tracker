@@ -2,6 +2,7 @@ import requests
 import lxml
 from bs4 import BeautifulSoup
 import smtplib
+from collections.abc import Mapping
 
 APP_PASS = input("Enter your app password: ")
 SENDER = input("Enter your email: ")
