@@ -3,11 +3,11 @@ import lxml
 from bs4 import BeautifulSoup
 import smtplib
 
-APP_PASS = "Your APP Password"
-SENDER = "Sender email"
-RECEIVER = "receiver email"
+APP_PASS = input("Enter your app password: ")
+SENDER = input("Enter your email: ")
+RECEIVER = ("Enter the Receiver email: ")
 BUY_PRICE = 200
-SMPT_ADDRESS = "your smpt address"
+SMPT_ADDRESS = input("Enter the SMTP Address")
 # The URL of the product you want to track
 url = "https://www.amazon.com/dp/B075CYMYK6?psc=1&ref_=cm_sw_r_cp_ud_ct_FM9M699VKHTT47YD50Q6"
 # Add your browser headers
